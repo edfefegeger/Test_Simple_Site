@@ -1,43 +1,38 @@
-
 body {
     font-family: Arial, sans-serif;
-    margin: 20;
+    margin: 0;
     padding: 0;
     color: rgb(42, 131, 76);
 }
 
-.intro
-{
+.intro {
     font-size: 50px;
-
 }
-.intro1
-{
+
+.intro1 {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
-.header-title
-{
+.header-title {
     font-size: 50px;
-
 }
-.about-us
-{
+
+.about-us {
     font-size: 23px;
 }
-.about
-{
-    font-size: 50px;
 
+.about {
+    font-size: 50px;
 }
+
 nav {
-    text-align: center; 
+    text-align: center;
 }
+
 .nav-button {
     padding: 10px 20px;
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     color: white;
     border: none;
     text-align: center;
@@ -48,25 +43,24 @@ nav {
     cursor: pointer;
     border-radius: 8px;
 }
+
 .nav-button:hover {
-    background-color: #45a049; 
+    background-color: #45a049;
 }
-.contact-data
-{
+
+.contact-data {
     font-size: 25px;
-
 }
-.contact-text
-{
+
+.contact-text {
     font-size: 23px;
-
 }
-.form_class
-{
+
+.form_class {
     font-size: 20px;
-
 }
-header, main, footer {
+
+header, main {
     padding: 20px;
     color: green;
 }
@@ -98,8 +92,12 @@ header h1 {
 footer {
     background-color: #f4f4f4;
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    padding: 20px;
+    color: green;
+    margin-top: +800px;
 }
 
+main {
+    margin-bottom: 70px; 
+}
