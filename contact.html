@@ -8,20 +8,36 @@
 </head>
 <body>
     <header>
-        <h1>Контакты</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="index.html"><button class="nav-button">Главная</button></a></li>
+                <li><a href="about.html"><button class="nav-button">О нас</button></a></li>
+                <li><a href="contact.html"><button class="nav-button">Контакты</button></a></li>
             </ul>
         </nav>
+        <h1>Контакты</h1>
+
     </header>
     <main>
         <section>
             <h2>Свяжитесь с нами</h2>
             <p>Мы всегда готовы ответить на ваши вопросы. Свяжитесь с нами с помощью формы обратной связи или по телефону.</p>
-            <address>
+            <form>
+                <label for="name">Ваше имя*:</label>
+                <input type="text" id="name" name="name" placeholder="Введите имя">
+                <label for="email">Ваша почта:</label>
+                <input type="email" id="email" name="email" placeholder="Введите почту">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" name="message" placeholder="Введите сообщение"></textarea>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+                <p>Поля, отмеченные <span class="required">*</span>, обязательны к заполнению.</p>
+                <p><span class="required">*</span> Обязательные поля</p>
+
+
+
+
+            <address class="contact-data">
                 Электронная почта: <a href="mailto:info@example.com">info@example.com</a><br>
                 Телефон: +123456789
             </address>
