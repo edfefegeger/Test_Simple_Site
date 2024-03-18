@@ -57,6 +57,16 @@ nav {
     font-size: 25px;
 
 }
+.contact-text
+{
+    font-size: 23px;
+
+}
+.form_class
+{
+    font-size: 20px;
+
+}
 header, main, footer {
     padding: 20px;
     color: green;
