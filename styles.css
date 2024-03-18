@@ -1,4 +1,4 @@
-/* Общие стили */
+
 body {
     font-family: Arial, sans-serif;
     margin: 20;
@@ -33,11 +33,11 @@ body {
 
 }
 nav {
-    text-align: center; /* Центрируем текст внутри навигационного меню */
+    text-align: center; 
 }
 .nav-button {
     padding: 10px 20px;
-    background-color: #4CAF50; /* Зеленый цвет */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     text-align: center;
@@ -48,9 +48,8 @@ nav {
     cursor: pointer;
     border-radius: 8px;
 }
-/* При наведении курсора меняем цвет фона */
 .nav-button:hover {
-    background-color: #45a049; /* Темнозеленый цвет */
+    background-color: #45a049; 
 }
 .contact-data
 {
@@ -92,7 +91,6 @@ nav ul li a:hover {
     color: #000;
 }
 
-/* Стили для каждой страницы */
 header h1 {
     color: #333;
 }
