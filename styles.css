@@ -3,15 +3,18 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(42, 131, 76);
+    background-color: #f8f8f8; 
 }
 
 .intro {
     font-size: 50px;
+    font-style: italic;
 }
 
 .intro1 {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold; 
 }
 
 .header-title {
@@ -20,6 +23,7 @@ body {
 
 .about-us {
     font-size: 23px;
+    line-height: 1.6;
 }
 
 .about {
@@ -28,6 +32,8 @@ body {
 
 nav {
     text-align: center;
+    background-color: #333; 
+    padding: 10px; 
 }
 
 .nav-button {
@@ -42,10 +48,17 @@ nav {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
+    transition: background-color 0.3s; 
 }
 
 .nav-button:hover {
     background-color: #45a049;
+}
+
+.Team {
+    font-size: 50px;
+    color: blue; 
+    font-weight: bold; 
 }
 
 .contact-data {
@@ -78,7 +91,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff; 
 }
 
 nav ul li a:hover {
@@ -95,9 +108,9 @@ footer {
     width: 100%;
     padding: 20px;
     color: green;
-    margin-top: +800px;
-}
-
-main {
-    margin-bottom: 70px; 
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    border-top: 2px solid #ccc; 
 }
