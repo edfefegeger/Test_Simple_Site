@@ -1,3 +1,10 @@
+.dark-theme {
+    background-color: #333; /* Цвет фона для темной версии */
+    color: #fff; /* Цвет текста для темной версии */
+    /* Другие стили для темной версии */
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,6 +26,12 @@ body {
 
 .header-title {
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold; 
+    color: #29b948;
+
+
+
 }
 
 .about-us {
