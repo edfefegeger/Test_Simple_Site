@@ -16,6 +16,23 @@ a:visited {
 a:hover {
     color: red; /* Цвет ссылки при наведении */
 }
+        /* Стили для галереи */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .gallery-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+        }
 body {
     font-family: Arial, sans-serif;
     margin: 0;
