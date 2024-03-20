@@ -3,7 +3,58 @@
     color: #fff; /* Цвет текста для темной версии */
     /* Другие стили для темной версии */
 }
+      /* Стили для ссылок */
+      a:link {
+        color: blue; /* Цвет ссылки до посещения */
+        text-decoration: none; /* Убираем подчеркивание */
+    }
 
+    a:visited {
+        color: purple; /* Цвет ссылки после посещения */
+    }
+
+    a:hover {
+        color: red; /* Цвет ссылки при наведении */
+    }
+
+    /* Стили для формы регистрации */
+    .registration-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+    .registration-form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .registration-form input[type="text"],
+    .registration-form input[type="email"],
+    .registration-form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .registration-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .registration-form button:hover {
+        background-color: #45a049;
+    }
 a:link {
     color: blue; /* Цвет ссылки до посещения */
     text-decoration: none; /* Убираем подчеркивание */
